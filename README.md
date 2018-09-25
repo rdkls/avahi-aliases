@@ -22,7 +22,7 @@ Install
 
 ```
 sudo apt-get install python-avahi
-sudo pip install git+git://github.com/airtonix/avahi-aliases.git
+sudo pip install git+git://github.com/rdkls/avahi-aliases.git
 ```
 
 Uninstall

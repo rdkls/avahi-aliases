@@ -31,8 +31,9 @@ setup(
     url='http://github.com/airtonix/avahi-aliases',
 
     description='''Simple python application that manages the announcement of multiple avahi aliases''',
-    long_description = read('README'),
+    long_description = read('README.md'),
     install_requires = [
+        'python-avahi',
         'python-daemon',
     ],
     packages = find_packages(),
